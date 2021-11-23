@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-23T09:38:04.807Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="H7_cyf2DiUiXZeg_FXFO" version="15.8.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-11-23T09:38:31.795Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="mfqKXqY_CTQhLkBsJlXR" version="15.8.3" type="github" pages="6">
   <diagram name="forgot password" id="U-3tq2ecIW5YMD4aMSCn">
     <mxGraphModel dx="782" dy="1838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -598,7 +598,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="F8cFDDdRaGsDjPKlGK8P-44" value="" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;shadow=0;glass=0;sketch=0;fontSize=13;strokeWidth=1;fillColor=none;rotation=-90;size=7;" vertex="1" parent="F8cFDDdRaGsDjPKlGK8P-13">
-          <mxGeometry x="450" y="95" width="15" height="15" as="geometry" />
+          <mxGeometry x="452.5" y="97.5" width="15" height="10" as="geometry" />
         </mxCell>
         <mxCell id="F8cFDDdRaGsDjPKlGK8P-45" value="" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;shadow=0;glass=0;sketch=0;fontSize=13;strokeWidth=1;fillColor=none;rotation=-90;size=7;" vertex="1" parent="F8cFDDdRaGsDjPKlGK8P-13">
           <mxGeometry x="451" y="283" width="14" height="12" as="geometry" />
