@@ -1,0 +1,349 @@
+openapi: 3.0.1
+info:
+  title: Floria Signin Signup API,
+  description: This API supports client of Floria to register and sign in to Floria system
+  version: 1.0.0
+servers:
+  - url: http://127.0.0.1:3000/api/users
+tags:
+  - name: admins
+    description: Secured Admin-only calls
+  - name: users
+    description: Operations about user
+
+paths:
+  /login:
+    post:
+      tags:
+        - users 
+      description: Logs user into the system
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/User'
+          application/xml:
+            schema:
+              $ref: '#/components/schemas/User'
+              
+      responses:
+        '200':
+          description: User is logged in
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                    properties:
+                      accessToken:
+                        type: string
+                  error:
+                    type: boolean
+                  message:
+                    type: string
+              examples:
+                '0':
+                  value: >-
+                    {"error":false,"message":"","data":{"accessToken":"eyJraWQiOiJtRFMwYTM3OTNKaHpyVis5VUI4NmVpSk91YnpCMHBEYndFOEVBRDZ1RG9jPSIsImFsZyI6IlJTMjU2In0.eyJvcmlnaW5fanRpIjoiOTNhODYwMTMtYzJmOC00M2NiLTg5OTAtNDBmZjRkN2IwMDRlIiwic3ViIjoiMDk0MzdmY2EtNzA2Zi00ODk5LThlNWQtMmJjYmY0MmEzMzZlIiwiZXZlbnRfaWQiOiI0ZjU2ZDM4NC0yOGZmLTRhNWQtYjU1ZC0zYmVkY2VkNzU1ZjEiLCJ0b2tlbl91c2UiOiJhY2Nlc3MiLCJzY29wZSI6ImF3cy5jb2duaXRvLnNpZ25pbi51c2VyLmFkbWluIiwiYXV0aF90aW1lIjoxNjM2NTM4NTAwLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuY2EtY2VudHJhbC0xLmFtYXpvbmF3cy5jb21cL2NhLWNlbnRyYWwtMV9US0l5R3d1bXciLCJleHAiOjE2MzY1NDIxMDAsImlhdCI6MTYzNjUzODUwMCwianRpIjoiYWJiMmU0ZWItYmY3Ny00Y2ZjLWIyYWEtMDA2MjMzMTlhY2QxIiwiY2xpZW50X2lkIjoiNW42ZG43Y21oZDhiYmJvbjZkaTc4Yjl1YzYiLCJ1c2VybmFtZSI6InRlc3QwOSJ9.PmPNNwzmqvqHzfna7kfYw1ZcGGWGqFDqpcN9hgVCAMOHX0TZRnUn64mXiCiAPm55ZFfXWxWzUv-N2h-uu_c6rUr8ybwBu07UaSCcvJlcsKeiGIeWQUA5CofDWbSPNG5bw_0rytD7MrmtWgVOoAlanskGFI1eh6y61u8VlkHEu8sNrrdVRmWiyXi_66_p40xcFP_n6aq5-VXpXy4fFvKRAglQa8N4Ne_5hv9rkuoVUYoKJBkuPDKfg48t0ZBt7pTaUJt4SVOMx1l6gUR41xMUhyneQ_ifUsRJm7vFRoKS3jFZXFWjMfWv-1A2KkHmfsJ7KFeyPoMpo9F3zb3bJtZdDw"}}
+  /sign-up:
+    post:
+      tags:
+        - users 
+      description: Sign-up for an account
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UserDetails'
+          application/xml:
+            schema:
+              $ref: '#/components/schemas/UserDetails'
+              
+      responses:
+        '200':
+          description: succesful operation
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                  error:
+                    type: boolean
+                    example: false
+                  message:
+                    type: string
+                    example : please_confirm_your_sign_up_check_phone_for_validation_code
+        '400':
+          description: err.exception
+                       
+        '405':
+          description: user.password_should_have_caps_special_chars_numbers
+  
+        '409':
+          description: user.this_username_already_exists          
+
+  /confirm-phone-code:
+    put:
+      
+      tags:
+        - users 
+      description: Verify phone number from phone code
+      security: [
+        Bearer: [ "eyJraWQiOiJtRFMwYTM3OTNKaHpyVis5VUI4NmVpSk91YnpCMHBEYndFOEVBRDZ1RG9jPSIsImFsZyI6IlJTMjU2In0.eyJvcmlnaW5fanRpIjoiOTNhODYwMTMtYzJmOC00M2NiLTg5OTAtNDBmZjRkN2IwMDRlIiwic3ViIjoiMDk0MzdmY2EtNzA2Zi00ODk5LThlNWQtMmJjYmY0MmEzMzZlIiwiZXZlbnRfaWQiOiI0ZjU2ZDM4NC0yOGZmLTRhNWQtYjU1ZC0zYmVkY2VkNzU1ZjEiLCJ0b2tlbl91c2UiOiJhY2Nlc3MiLCJzY29wZSI6ImF3cy5jb2duaXRvLnNpZ25pbi51c2VyLmFkbWluIiwiYXV0aF90aW1lIjoxNjM2NTM4NTAwLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuY2EtY2VudHJhbC0xLmFtYXpvbmF3cy5jb21cL2NhLWNlbnRyYWwtMV9US0l5R3d1bXciLCJleHAiOjE2MzY1NDIxMDAsImlhdCI6MTYzNjUzODUwMCwianRpIjoiYWJiMmU0ZWItYmY3Ny00Y2ZjLWIyYWEtMDA2MjMzMTlhY2QxIiwiY2xpZW50X2lkIjoiNW42ZG43Y21oZDhiYmJvbjZkaTc4Yjl1YzYiLCJ1c2VybmFtZSI6InRlc3QwOSJ9.PmPNNwzmqvqHzfna7kfYw1ZcGGWGqFDqpcN9hgVCAMOHX0TZRnUn64mXiCiAPm55ZFfXWxWzUv-N2h-uu_c6rUr8ybwBu07UaSCcvJlcsKeiGIeWQUA5CofDWbSPNG5bw_0rytD7MrmtWgVOoAlanskGFI1eh6y61u8VlkHEu8sNrrdVRmWiyXi_66_p40xcFP_n6aq5-VXpXy4fFvKRAglQa8N4Ne_5hv9rkuoVUYoKJBkuPDKfg48t0ZBt7pTaUJt4SVOMx1l6gUR41xMUhyneQ_ifUsRJm7vFRoKS3jFZXFWjMfWv-" ],
+        BasicAuth: []
+      ]
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PhoneVerification'
+          application/xml:
+            schema:
+              $ref: '#/components/schemas/PhoneVerification'
+              
+      responses:
+        '200':
+          description: succesful operation
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: boolean
+                    example: false
+                  data:
+                    type: object
+                    properties:
+                      accessToken:
+                        type: string
+                        example: aasdkjaskjdhakljsdhakjs
+                  message:
+                    type: string
+                    example : confirm_phone_successfully
+        '400':
+          description: user.security_code_invalid
+  /confirm-email-code:
+    put:
+      tags:
+        - users 
+      description: Verify email address from email code
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/EmailVerification'
+          application/xml:
+            schema:
+              $ref: '#/components/schemas/EmailVerification'
+              
+      responses:
+        '200':
+          description: succesful operation
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: boolean
+                    example: false
+                  data:
+                    type: object
+                  message:
+                    type: string
+                    example : confirm_email_successfully
+        '400':
+          description: Unknown error ...
+
+  /resend-phone-code:
+    put:
+      tags:
+        - users 
+      description: Request system to send phone code again
+      security: [
+        Bearer: [ "eyJraWQiOiJtRFMwYTM3OTNKaHpyVis5VUI4NmVpSk91YnpCMHBEYndFOEVBRDZ1RG9jPSIsImFsZyI6IlJTMjU2In0.eyJvcmlnaW5fanRpIjoiOTNhODYwMTMtYzJmOC00M2NiLTg5OTAtNDBmZjRkN2IwMDRlIiwic3ViIjoiMDk0MzdmY2EtNzA2Zi00ODk5LThlNWQtMmJjYmY0MmEzMzZlIiwiZXZlbnRfaWQiOiI0ZjU2ZDM4NC0yOGZmLTRhNWQtYjU1ZC0zYmVkY2VkNzU1ZjEiLCJ0b2tlbl91c2UiOiJhY2Nlc3MiLCJzY29wZSI6ImF3cy5jb2duaXRvLnNpZ25pbi51c2VyLmFkbWluIiwiYXV0aF90aW1lIjoxNjM2NTM4NTAwLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuY2EtY2VudHJhbC0xLmFtYXpvbmF3cy5jb21cL2NhLWNlbnRyYWwtMV9US0l5R3d1bXciLCJleHAiOjE2MzY1NDIxMDAsImlhdCI6MTYzNjUzODUwMCwianRpIjoiYWJiMmU0ZWItYmY3Ny00Y2ZjLWIyYWEtMDA2MjMzMTlhY2QxIiwiY2xpZW50X2lkIjoiNW42ZG43Y21oZDhiYmJvbjZkaTc4Yjl1YzYiLCJ1c2VybmFtZSI6InRlc3QwOSJ9.PmPNNwzmqvqHzfna7kfYw1ZcGGWGqFDqpcN9hgVCAMOHX0TZRnUn64mXiCiAPm55ZFfXWxWzUv-N2h-uu_c6rUr8ybwBu07UaSCcvJlcsKeiGIeWQUA5CofDWbSPNG5bw_0rytD7MrmtWgVOoAlanskGFI1eh6y61u8VlkHEu8sNrrdVRmWiyXi_66_p40xcFP_n6aq5-VXpXy4fFvKRAglQa8N4Ne_5hv9rkuoVUYoKJBkuPDKfg48t0ZBt7pTaUJt4SVOMx1l6gUR41xMUhyneQ_ifUsRJm7vFRoKS3jFZXFWjMfWv-" ],
+        BasicAuth: []
+      ]
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Email'
+          application/xml:
+            schema:
+              $ref: '#/components/schemas/Email'
+              
+      responses:
+        '200':
+          description: succesful operation
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: boolean
+                    example: false
+                  data:
+                    type: object
+                  message:
+                    type: string
+                    example : resend_phone_code_successfully
+        '400':
+          description: resend_phone_code_error
+  /resend-email-code:
+    put:
+      tags:
+        - users 
+      description: Request system to send email code again
+      security: [
+        Bearer: [ "eyJraWQiOiJtRFMwYTM3OTNKaHpyVis5VUI4NmVpSk91YnpCMHBEYndFOEVBRDZ1RG9jPSIsImFsZyI6IlJTMjU2In0.eyJvcmlnaW5fanRpIjoiOTNhODYwMTMtYzJmOC00M2NiLTg5OTAtNDBmZjRkN2IwMDRlIiwic3ViIjoiMDk0MzdmY2EtNzA2Zi00ODk5LThlNWQtMmJjYmY0MmEzMzZlIiwiZXZlbnRfaWQiOiI0ZjU2ZDM4NC0yOGZmLTRhNWQtYjU1ZC0zYmVkY2VkNzU1ZjEiLCJ0b2tlbl91c2UiOiJhY2Nlc3MiLCJzY29wZSI6ImF3cy5jb2duaXRvLnNpZ25pbi51c2VyLmFkbWluIiwiYXV0aF90aW1lIjoxNjM2NTM4NTAwLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuY2EtY2VudHJhbC0xLmFtYXpvbmF3cy5jb21cL2NhLWNlbnRyYWwtMV9US0l5R3d1bXciLCJleHAiOjE2MzY1NDIxMDAsImlhdCI6MTYzNjUzODUwMCwianRpIjoiYWJiMmU0ZWItYmY3Ny00Y2ZjLWIyYWEtMDA2MjMzMTlhY2QxIiwiY2xpZW50X2lkIjoiNW42ZG43Y21oZDhiYmJvbjZkaTc4Yjl1YzYiLCJ1c2VybmFtZSI6InRlc3QwOSJ9.PmPNNwzmqvqHzfna7kfYw1ZcGGWGqFDqpcN9hgVCAMOHX0TZRnUn64mXiCiAPm55ZFfXWxWzUv-N2h-uu_c6rUr8ybwBu07UaSCcvJlcsKeiGIeWQUA5CofDWbSPNG5bw_0rytD7MrmtWgVOoAlanskGFI1eh6y61u8VlkHEu8sNrrdVRmWiyXi_66_p40xcFP_n6aq5-VXpXy4fFvKRAglQa8N4Ne_5hv9rkuoVUYoKJBkuPDKfg48t0ZBt7pTaUJt4SVOMx1l6gUR41xMUhyneQ_ifUsRJm7vFRoKS3jFZXFWjMfWv-" ],
+        BasicAuth: []
+      ]
+      requestBody: 
+        content: {}
+        
+      responses:
+        '200':
+          description: succesful operation
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: boolean
+                    example: false
+                  data:
+                    type: object
+                  message:
+                    type: string
+                    example : resend_phone_code_successfully
+        '400':
+          description: resend_email_code_error
+  /reset-password:
+    put:
+      tags:
+        - users 
+      description: Request system to send reset password
+      requestBody:
+         content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Email'
+          application/xml:
+            schema:
+              $ref: '#/components/schemas/Email'     
+      responses:
+        '200':
+          description: succesful operation
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: boolean
+                    example: false
+                  data:
+                    type: object
+                  message:
+                    type: string
+                    example : send_reset_password_successfully
+        '400':
+          description: reset_password_error
+
+components:
+  schemas:
+    User:
+      required:
+        - email
+        - password
+      type: object
+      properties:
+        email:
+          type: string
+          example: nguyennguykhanh1023@gmail.com
+        password:
+          type: string
+          example: 123456
+
+    UserDetails:
+      required:
+        - email
+        - password
+        - phoneNumber
+        - birthDate
+        - firstName
+        - lastName
+      type: object
+      properties:
+        email:
+          type: string
+          example: nguyennguykhanh1023@gmail.com
+        password:
+          type: string
+          example: 123456
+        phoneNumber:
+          type: string
+          example: +84766735782
+        birthDate:
+          type: number
+          example: 19900101
+        firstName:
+          type: string
+          example: Khanh
+        lastName:
+          type: string
+          example: Nguyen
+          
+    PhoneVerification:
+      required:
+        - email
+        - password
+        - code
+      type: object
+      properties:
+        email:
+          type: string
+          example: nguyennguykhanh1023@gmail.com
+        password:
+          type: string
+          example: 123456
+        code:
+          type: string
+          example: 379856
+    EmailVerification:
+      required:
+        - code
+      type: object
+      properties:
+        code:
+          type: string
+          example: 106199
+    Email:
+      required:
+        - email
+      type: object
+      properties:
+        email:
+          type: string
+          example: nguyennguykhanh1023@gmail.com
+  securitySchemes:
+    Bearer: 
+      type: http
+      description: Enter Jwt token only
+      scheme: bearer
+      bearerFormat: JWT
+    BasicAuth:
+      type: http
+      scheme: basic
+      
+      
+      
+    
