@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-15T08:26:33.289Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="fwh-fVGWDhw2DMPQviNZ" version="15.9.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-12-15T09:00:38.556Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="L1p4I0aa3ZebJ2dRCv6X" version="15.9.6" type="github" pages="2">
   <diagram name="LoanService" id="uv95kXmCHw0RZ0mb4yef">
     <mxGraphModel dx="1202" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -1052,6 +1052,15 @@
         </mxCell>
         <mxCell id="SHe3HsNG5VjF5RK5C6bU-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="sVFSFLoDuz54pdPwuse4-1">
           <mxGeometry x="30" y="30" width="70" height="1620" as="geometry" />
+        </mxCell>
+        <mxCell id="SHe3HsNG5VjF5RK5C6bU-1" value="Note:&amp;nbsp;&lt;br&gt;- loan_type_question: determines questions of which loan type&amp;nbsp;&lt;br&gt;- icon : specific question icons&lt;br&gt;- condition_display_question; determing condition to display answers&lt;br&gt;- page_title : title of question" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="sVFSFLoDuz54pdPwuse4-1">
+          <mxGeometry x="1145" y="1320" width="260" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="SHe3HsNG5VjF5RK5C6bU-2" value="Note:&amp;nbsp;&lt;br&gt;- loan_type_question: determines questions of which loan type&amp;nbsp;&lt;br&gt;- icon : specific question icon&lt;br&gt;- condition_display_question; determing condition to display answers" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="sVFSFLoDuz54pdPwuse4-1">
+          <mxGeometry x="410" y="1180" width="260" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="SHe3HsNG5VjF5RK5C6bU-3" value="Note: this table stores data by month" style="shape=note;strokeWidth=2;fontSize=14;size=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="sVFSFLoDuz54pdPwuse4-1">
+          <mxGeometry x="30" y="550" width="80" height="106" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
