@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-15T07:59:29.719Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="BJZsJcoGH4cMdgfSIIEK" version="15.9.6" type="github" pages="2">
-  <diagram name="Copy of Page-1" id="uv95kXmCHw0RZ0mb4yef">
-    <mxGraphModel dx="1022" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+<mxfile host="app.diagrams.net" modified="2021-12-15T08:02:37.187Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="-OA9PAi4wPXbDWqFtNWz" version="15.9.6" type="github" pages="2">
+  <diagram name="LoanService" id="uv95kXmCHw0RZ0mb4yef">
+    <mxGraphModel dx="1022" dy="681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="sVFSFLoDuz54pdPwuse4-0" />
         <mxCell id="sVFSFLoDuz54pdPwuse4-1" parent="sVFSFLoDuz54pdPwuse4-0" />
@@ -169,7 +169,7 @@
             <mxRectangle width="280" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sVFSFLoDuz54pdPwuse4-34" value="&lt;&lt;Collection&gt;&gt;&#xa;User_Profile" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="sVFSFLoDuz54pdPwuse4-1" vertex="1">
+        <mxCell id="sVFSFLoDuz54pdPwuse4-34" value="&lt;&lt;Collection&gt;&gt;&#xa;User_Profile" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="sVFSFLoDuz54pdPwuse4-1" vertex="1">
           <mxGeometry x="120" y="120" width="250" height="330" as="geometry">
             <mxRectangle x="120" y="120" width="120" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -832,7 +832,7 @@
           <mxGeometry x="170" y="1200" width="200" height="65" as="geometry" />
         </mxCell>
         <mxCell id="Y9fA7eznBxWTQKUn9L52-169" value="&lt;&lt;Collection&gt;&gt;&#xa;Loan_Questionnaire" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="sVFSFLoDuz54pdPwuse4-1">
-          <mxGeometry x="470" y="1165" width="340" height="625" as="geometry">
+          <mxGeometry x="795" y="955" width="340" height="625" as="geometry">
             <mxRectangle x="120" y="120" width="120" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -1045,10 +1045,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Y9fA7eznBxWTQKUn9L52-273" value="&lt;p style=&quot;margin: 4px 0px 0px&quot;&gt;&amp;nbsp; Item &amp;lt;&amp;lt;List&amp;gt;&amp;gt;&lt;/p&gt;&lt;hr&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;question_id: String (Foreign key),&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;parent_id: String,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;loan_type_question: String,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;icon: String,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;page_title: String,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;content_key: String,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;type: String,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;question_order: Number,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;next_question_id: String,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;prev_question_id: String,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;active_answer: String,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;value_answer_input: String,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;condition_display_question: Number,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;is_hide_item: Boolean&lt;/p&gt;&lt;/blockquote&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="sVFSFLoDuz54pdPwuse4-1">
-          <mxGeometry x="510" y="1240" width="290" height="540" as="geometry" />
+          <mxGeometry x="835" y="1030" width="290" height="540" as="geometry" />
         </mxCell>
         <mxCell id="Y9fA7eznBxWTQKUn9L52-221" value="&lt;p style=&quot;margin: 4px 0px 0px&quot;&gt;&amp;nbsp; sub_item &amp;lt;&amp;lt;List&amp;gt;&amp;gt;&lt;/p&gt;&lt;hr&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;question_id: String,&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;parent_id: String,&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;loan_type_question: String,&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;icon: String,&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;page_title: String,&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;content_key: String,&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;type: String,&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;question_order: Number,&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;next_question_id: String,&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;prev_question_id: String,&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;active_answer: String,&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;value_answer_input: String,&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;condition_display_question: Number,&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;is_hide_item: Boolean,&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;sub_item: &amp;lt;&amp;lt;List&amp;gt;&amp;gt;&lt;/p&gt;&lt;/blockquote&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="sVFSFLoDuz54pdPwuse4-1">
-          <mxGeometry x="540" y="1500" width="250" height="260" as="geometry" />
+          <mxGeometry x="865" y="1290" width="250" height="260" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
