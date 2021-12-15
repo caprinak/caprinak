@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-15T09:17:05.874Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="CuuJfF755krjYuueGfsi" version="15.9.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-12-15T09:21:56.282Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="LXwHsl2-eRP-yaNnPvll" version="15.9.6" type="github" pages="2">
   <diagram name="LoanService" id="uv95kXmCHw0RZ0mb4yef">
-    <mxGraphModel dx="973" dy="681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="5110" dy="3405" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="sVFSFLoDuz54pdPwuse4-0" />
         <mxCell id="sVFSFLoDuz54pdPwuse4-1" parent="sVFSFLoDuz54pdPwuse4-0" />
@@ -1066,17 +1066,17 @@
         <mxCell id="SHe3HsNG5VjF5RK5C6bU-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="sVFSFLoDuz54pdPwuse4-1">
           <mxGeometry x="30" y="30" width="70" height="1620" as="geometry" />
         </mxCell>
-        <mxCell id="SHe3HsNG5VjF5RK5C6bU-1" value="Note:&amp;nbsp;&lt;br&gt;Loan_Questionnaire table stores Items, which are main questions, and sub-items inside each main question.&lt;br&gt;&lt;br&gt;- loan_type_question: determines questions of which loan type&amp;nbsp;&lt;br&gt;- icon : specific question icons&lt;br&gt;- condition_display_question; determine condition to display which answer set (depending on previous answer).&lt;br&gt;- page_title : title of question" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="sVFSFLoDuz54pdPwuse4-1">
-          <mxGeometry x="1150" y="1080" width="180" height="330" as="geometry" />
+        <mxCell id="SHe3HsNG5VjF5RK5C6bU-1" value="Note:&amp;nbsp;&lt;br style=&quot;font-size: 12px;&quot;&gt;Loan_Questionnaire table stores Items, which are main questions, and sub-items inside each main question.&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;- loan_type_question: determines questions of which loan type&amp;nbsp;&lt;br style=&quot;font-size: 12px;&quot;&gt;- icon : specific question icons&lt;br style=&quot;font-size: 12px;&quot;&gt;- condition_display_question: determines condition to display which answer set (depending on previous answer).&lt;br style=&quot;font-size: 12px;&quot;&gt;- page_title : title of question" style="shape=note;strokeWidth=2;fontSize=12;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="sVFSFLoDuz54pdPwuse4-1">
+          <mxGeometry x="1150" y="1010" width="150" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="SHe3HsNG5VjF5RK5C6bU-2" value="Note:&amp;nbsp;&lt;br&gt;This table stores data to calculate loan schedule (sample and real loan)" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="sVFSFLoDuz54pdPwuse4-1">
-          <mxGeometry x="15" y="990" width="100" height="142.5" as="geometry" />
-        </mxCell>
-        <mxCell id="SHe3HsNG5VjF5RK5C6bU-3" value="Note: this table stores data by month" style="shape=note;strokeWidth=2;fontSize=14;size=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="sVFSFLoDuz54pdPwuse4-1">
-          <mxGeometry x="40" y="610" width="80" height="106" as="geometry" />
+        <mxCell id="SHe3HsNG5VjF5RK5C6bU-2" value="Note:&amp;nbsp;&lt;br style=&quot;font-size: 12px;&quot;&gt;This table stores data to calculate loan schedule (sample and real loan)" style="shape=note;strokeWidth=2;fontSize=12;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="sVFSFLoDuz54pdPwuse4-1">
+          <mxGeometry x="42.5" y="1000" width="85" height="120" as="geometry" />
         </mxCell>
         <mxCell id="SHe3HsNG5VjF5RK5C6bU-8" value="&lt;p style=&quot;margin: 4px 0px 0px&quot;&gt;&lt;/p&gt;&amp;nbsp;phone_number&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;content : String&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;area_code : String&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="sVFSFLoDuz54pdPwuse4-1">
           <mxGeometry x="160" y="302" width="200" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="SHe3HsNG5VjF5RK5C6bU-9" value="Note: this table stores data by month" style="shape=note;strokeWidth=2;fontSize=12;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="sVFSFLoDuz54pdPwuse4-1">
+          <mxGeometry x="50" y="600" width="70" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
