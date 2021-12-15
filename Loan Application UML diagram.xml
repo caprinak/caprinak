@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-15T09:03:49.057Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="3idiktVd20HIp3rfGHmF" version="15.9.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-12-15T09:13:39.572Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="DZe1b2vD5Gp8X0w7DHHa" version="15.9.6" type="github" pages="2">
   <diagram name="LoanService" id="uv95kXmCHw0RZ0mb4yef">
-    <mxGraphModel dx="1202" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="973" dy="681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="sVFSFLoDuz54pdPwuse4-0" />
         <mxCell id="sVFSFLoDuz54pdPwuse4-1" parent="sVFSFLoDuz54pdPwuse4-0" />
@@ -170,7 +170,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="sVFSFLoDuz54pdPwuse4-34" value="&lt;&lt;Collection&gt;&gt;&#xa;User_Profile" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="sVFSFLoDuz54pdPwuse4-1" vertex="1">
-          <mxGeometry x="120" y="120" width="250" height="330" as="geometry">
+          <mxGeometry x="120" y="120" width="250" height="360" as="geometry">
             <mxRectangle x="120" y="120" width="120" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -239,8 +239,21 @@
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sVFSFLoDuz54pdPwuse4-50" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="sVFSFLoDuz54pdPwuse4-34" vertex="1">
+        <mxCell id="SHe3HsNG5VjF5RK5C6bU-4" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="sVFSFLoDuz54pdPwuse4-34">
           <mxGeometry y="180" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SHe3HsNG5VjF5RK5C6bU-5" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="SHe3HsNG5VjF5RK5C6bU-4">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SHe3HsNG5VjF5RK5C6bU-6" value="area_code : String" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="SHe3HsNG5VjF5RK5C6bU-4">
+          <mxGeometry x="30" width="220" height="30" as="geometry">
+            <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sVFSFLoDuz54pdPwuse4-50" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="sVFSFLoDuz54pdPwuse4-34" vertex="1">
+          <mxGeometry y="210" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sVFSFLoDuz54pdPwuse4-51" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="sVFSFLoDuz54pdPwuse4-50" vertex="1">
           <mxGeometry width="30" height="30" as="geometry">
@@ -253,7 +266,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="sVFSFLoDuz54pdPwuse4-53" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="sVFSFLoDuz54pdPwuse4-34" vertex="1">
-          <mxGeometry y="210" width="250" height="30" as="geometry" />
+          <mxGeometry y="240" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sVFSFLoDuz54pdPwuse4-54" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="sVFSFLoDuz54pdPwuse4-53" vertex="1">
           <mxGeometry width="30" height="30" as="geometry">
@@ -266,7 +279,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="sVFSFLoDuz54pdPwuse4-56" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="sVFSFLoDuz54pdPwuse4-34" vertex="1">
-          <mxGeometry y="240" width="250" height="90" as="geometry" />
+          <mxGeometry y="270" width="250" height="90" as="geometry" />
         </mxCell>
         <mxCell id="sVFSFLoDuz54pdPwuse4-57" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="sVFSFLoDuz54pdPwuse4-56" vertex="1">
           <mxGeometry width="30" height="90" as="geometry">
@@ -1053,14 +1066,14 @@
         <mxCell id="SHe3HsNG5VjF5RK5C6bU-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="sVFSFLoDuz54pdPwuse4-1">
           <mxGeometry x="30" y="30" width="70" height="1620" as="geometry" />
         </mxCell>
-        <mxCell id="SHe3HsNG5VjF5RK5C6bU-1" value="Note:&amp;nbsp;&lt;br&gt;- loan_type_question: determines questions of which loan type&amp;nbsp;&lt;br&gt;- icon : specific question icons&lt;br&gt;- condition_display_question; determing condition to display answers&lt;br&gt;- page_title : title of question" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="sVFSFLoDuz54pdPwuse4-1">
-          <mxGeometry x="1145" y="1320" width="260" height="140" as="geometry" />
+        <mxCell id="SHe3HsNG5VjF5RK5C6bU-1" value="Note:&amp;nbsp;&lt;br&gt;Loan_Questionnaire table stores Items, which are main questions, and sub-items inside each main question.&lt;br&gt;&lt;br&gt;- loan_type_question: determines questions of which loan type&amp;nbsp;&lt;br&gt;- icon : specific question icons&lt;br&gt;- condition_display_question; determine condition to display which answer set (depending on previous answer).&lt;br&gt;- page_title : title of question" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="sVFSFLoDuz54pdPwuse4-1">
+          <mxGeometry x="1150" y="1080" width="180" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="SHe3HsNG5VjF5RK5C6bU-2" value="Note:&amp;nbsp;&lt;br&gt;This table stores data to calculate loan schedule (draft and official)" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="sVFSFLoDuz54pdPwuse4-1">
-          <mxGeometry x="40" y="1100" width="100" height="142.5" as="geometry" />
+        <mxCell id="SHe3HsNG5VjF5RK5C6bU-2" value="Note:&amp;nbsp;&lt;br&gt;This table stores data to calculate loan schedule (sample and real loan)" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="sVFSFLoDuz54pdPwuse4-1">
+          <mxGeometry x="15" y="990" width="100" height="142.5" as="geometry" />
         </mxCell>
         <mxCell id="SHe3HsNG5VjF5RK5C6bU-3" value="Note: this table stores data by month" style="shape=note;strokeWidth=2;fontSize=14;size=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="sVFSFLoDuz54pdPwuse4-1">
-          <mxGeometry x="30" y="550" width="80" height="106" as="geometry" />
+          <mxGeometry x="30" y="570" width="80" height="106" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
