@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-17T08:57:25.851Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="m-AvAV9JgQ-xHGwTFelE" version="15.9.6" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-12-17T08:58:27.741Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="yriYVeJFpm4j0J7Ec1eH" version="15.9.6" type="github" pages="7">
   <diagram name="forgot password" id="U-3tq2ecIW5YMD4aMSCn">
     <mxGraphModel dx="782" dy="1838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -675,19 +675,25 @@
           <mxGeometry x="340" y="430" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NsJnGy7d1SFkz4TZkfMm-20" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=13;fillColor=none;" vertex="1" parent="NsJnGy7d1SFkz4TZkfMm-1">
-          <mxGeometry x="550" y="114.5" width="260" height="260" as="geometry" />
+          <mxGeometry x="550" y="107" width="260" height="260" as="geometry" />
         </mxCell>
         <mxCell id="xZON4Fpkol3PNtgHPlYL-0" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://freesvg.org/img/1534129544.png;" vertex="1" parent="NsJnGy7d1SFkz4TZkfMm-1">
           <mxGeometry x="650" y="124" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xZON4Fpkol3PNtgHPlYL-1" value="Social Identity Provider" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="NsJnGy7d1SFkz4TZkfMm-1">
-          <mxGeometry x="610" y="183" width="160" height="30" as="geometry" />
+          <mxGeometry x="610" y="181" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xZON4Fpkol3PNtgHPlYL-2" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://docs.csiinc.com/files/1245479/34898553/1/1592856217967/saml-logo.png;" vertex="1" parent="NsJnGy7d1SFkz4TZkfMm-1">
-          <mxGeometry x="620.98" y="216.26" width="118.04" height="73.74" as="geometry" />
+          <mxGeometry x="620.98" y="214.26" width="118.04" height="73.74" as="geometry" />
         </mxCell>
         <mxCell id="xZON4Fpkol3PNtgHPlYL-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/OpenID_logo_2.svg/1200px-OpenID_logo_2.svg.png;" vertex="1" parent="NsJnGy7d1SFkz4TZkfMm-1">
-          <mxGeometry x="593.3399999999999" y="305" width="173.33" height="65" as="geometry" />
+          <mxGeometry x="593.3399999999999" y="303" width="173.33" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="xZON4Fpkol3PNtgHPlYL-4" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=13;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="NsJnGy7d1SFkz4TZkfMm-1" source="NsJnGy7d1SFkz4TZkfMm-20" target="NsJnGy7d1SFkz4TZkfMm-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="330" as="sourcePoint" />
+            <mxPoint x="390" y="280" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
