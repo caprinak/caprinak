@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-17T08:58:27.741Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="yriYVeJFpm4j0J7Ec1eH" version="15.9.6" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-12-17T09:00:51.768Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="vSa3IgzV8gyPz5qKZp82" version="15.9.6" type="github" pages="7">
   <diagram name="forgot password" id="U-3tq2ecIW5YMD4aMSCn">
     <mxGraphModel dx="782" dy="1838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -694,6 +694,9 @@
             <mxPoint x="340" y="330" as="sourcePoint" />
             <mxPoint x="390" y="280" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="xZON4Fpkol3PNtgHPlYL-5" value="Federation through Third Party Identity Provider (IdP)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=13;" vertex="1" parent="NsJnGy7d1SFkz4TZkfMm-1">
+          <mxGeometry x="560" y="380" width="240" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
