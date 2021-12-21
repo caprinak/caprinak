@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-21T07:59:12.572Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="73fZmLGINb65jUo17pl6" version="16.0.0" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-12-21T08:01:50.289Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="eQxij9Cl9yx_qwLgaC2M" version="16.0.0" type="github" pages="8">
   <diagram name="forgot password" id="U-3tq2ecIW5YMD4aMSCn">
     <mxGraphModel dx="1038" dy="1647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -766,17 +766,17 @@
             <mxPoint x="510" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WmvAmRduDO_l1HIR_5xr-13" value="Invoke and get loan formula" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;rotation=-20;" vertex="1" parent="Vrc2wJVm_UHh5o4pm00K-1">
+        <mxCell id="WmvAmRduDO_l1HIR_5xr-13" value="Invoke and get loan calculation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;rotation=-20;" vertex="1" parent="Vrc2wJVm_UHh5o4pm00K-1">
           <mxGeometry x="390" y="230" width="214" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WmvAmRduDO_l1HIR_5xr-14" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;dashPattern=1 1;" vertex="1" parent="Vrc2wJVm_UHh5o4pm00K-1">
-          <mxGeometry x="610" y="190" width="70" height="70" as="geometry" />
+          <mxGeometry x="610" y="180" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="WmvAmRduDO_l1HIR_5xr-15" value="&lt;b&gt;Loan Formula Service&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;" vertex="1" parent="Vrc2wJVm_UHh5o4pm00K-1">
-          <mxGeometry x="589.756682464455" y="260" width="118.48341232227487" height="36.15" as="geometry" />
+          <mxGeometry x="585.756682464455" y="260" width="118.48341232227487" height="36.15" as="geometry" />
         </mxCell>
         <mxCell id="WmvAmRduDO_l1HIR_5xr-16" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.dynamodb;dashPattern=1 1;" vertex="1" parent="Vrc2wJVm_UHh5o4pm00K-1">
-          <mxGeometry x="840" y="186" width="78" height="78" as="geometry" />
+          <mxGeometry x="840" y="182" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="WmvAmRduDO_l1HIR_5xr-17" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Vrc2wJVm_UHh5o4pm00K-1" source="Vrc2wJVm_UHh5o4pm00K-12" target="WmvAmRduDO_l1HIR_5xr-14">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -790,8 +790,11 @@
             <mxPoint x="620" y="235" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WmvAmRduDO_l1HIR_5xr-20" value="1. Get a HI Loan Request" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;" vertex="1" parent="Vrc2wJVm_UHh5o4pm00K-1">
+        <mxCell id="WmvAmRduDO_l1HIR_5xr-20" value="fetch data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;" vertex="1" parent="Vrc2wJVm_UHh5o4pm00K-1">
           <mxGeometry x="690" y="190" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WmvAmRduDO_l1HIR_5xr-21" value="&lt;b&gt;Loan Formula Information DB&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;" vertex="1" parent="Vrc2wJVm_UHh5o4pm00K-1">
+          <mxGeometry x="819.756682464455" y="260" width="118.48341232227487" height="36.15" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
