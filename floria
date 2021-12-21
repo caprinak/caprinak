@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-21T08:33:59.827Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="2856GeLYDldpkwMlR9y1" version="16.0.0" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-12-21T08:34:07.238Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="O9AVJr0_8VjgSffxJ6V8" version="16.0.0" type="github" pages="8">
   <diagram name="forgot password" id="U-3tq2ecIW5YMD4aMSCn">
     <mxGraphModel dx="1038" dy="1647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -803,7 +803,7 @@
           <mxGeometry x="620" y="266.5" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="WmvAmRduDO_l1HIR_5xr-15" value="&lt;b&gt;Loan Formula Service&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;" vertex="1" parent="Vrc2wJVm_UHh5o4pm00K-1">
-          <mxGeometry x="600.756682464455" y="346.5" width="118.48341232227487" height="36.15" as="geometry" />
+          <mxGeometry x="605.38" y="346.5" width="109.24" height="36.15" as="geometry" />
         </mxCell>
         <mxCell id="WmvAmRduDO_l1HIR_5xr-16" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.dynamodb;dashPattern=1 1;" vertex="1" parent="Vrc2wJVm_UHh5o4pm00K-1">
           <mxGeometry x="810" y="266.5" width="78" height="78" as="geometry" />
