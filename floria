@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-21T09:18:18.880Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="8OWSQpo-fhE6wvDkwA-9" version="16.0.0" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-12-21T09:19:57.508Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="k-KhlRMB9IZzUgaE5G2T" version="16.0.0" type="github" pages="9">
   <diagram name="forgot password" id="U-3tq2ecIW5YMD4aMSCn">
     <mxGraphModel dx="1278" dy="1589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1081,8 +1081,11 @@
             <mxPoint x="852" y="619.2033792240301" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FoNlxZiDORpDyXY3gfz9-36" value="6. store data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;" vertex="1" parent="hfBLXacPrN0k5xnqZZW9-1">
+        <mxCell id="FoNlxZiDORpDyXY3gfz9-36" value="7. store data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;" vertex="1" parent="hfBLXacPrN0k5xnqZZW9-1">
           <mxGeometry x="925.23" y="580" width="84.77" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FoNlxZiDORpDyXY3gfz9-41" value="6. confirm form submitted" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;rotation=30;" vertex="1" parent="hfBLXacPrN0k5xnqZZW9-1">
+          <mxGeometry x="490" y="563" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
