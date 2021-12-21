@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-21T08:35:58.377Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="CfCpAvWnm6R5OngmX644" version="16.0.0" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-12-21T08:37:36.576Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="2z8fNLC75BlFRnHKczI0" version="16.0.0" type="github" pages="8">
   <diagram name="forgot password" id="U-3tq2ecIW5YMD4aMSCn">
-    <mxGraphModel dx="1038" dy="1647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1278" dy="1589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="w26QlDHbNplEOXzG7kPk-0" />
         <mxCell id="w26QlDHbNplEOXzG7kPk-1" parent="w26QlDHbNplEOXzG7kPk-0" />
@@ -178,7 +178,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="change password" id="SnT0_H-jdUlqU7wmbeKt">
-    <mxGraphModel dx="669" dy="1511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1278" dy="1589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="SgCU_daz6LRPWN6VuVrd-0" />
         <mxCell id="SgCU_daz6LRPWN6VuVrd-1" parent="SgCU_daz6LRPWN6VuVrd-0" />
@@ -304,7 +304,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="AqzjsRMfyU35wsL8LbUH" name="aws-cloud-password operation">
-    <mxGraphModel dx="669" dy="411" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1278" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="l-WcXgXHeWVVgCG0XHgo-0" />
         <mxCell id="l-WcXgXHeWVVgCG0XHgo-1" parent="l-WcXgXHeWVVgCG0XHgo-0" />
@@ -369,7 +369,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Basic Login" id="VbXToXyCqZz2rcZDfzZc">
-    <mxGraphModel dx="669" dy="411" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1278" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="uUPHjpyD34tK3col_Z7D-0" />
         <mxCell id="uUPHjpyD34tK3col_Z7D-1" parent="uUPHjpyD34tK3col_Z7D-0" />
@@ -450,7 +450,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Signup" id="_u__Qi2Qt9Kkvxqp-ztJ">
-    <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1278" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="Q2Vx9VSZkhdRQ7zBRfrh-0" />
         <mxCell id="Q2Vx9VSZkhdRQ7zBRfrh-1" parent="Q2Vx9VSZkhdRQ7zBRfrh-0" />
