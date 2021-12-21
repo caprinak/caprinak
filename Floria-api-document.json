@@ -1,0 +1,251 @@
+swagger: "2.0"
+info:
+  description: "This is Floria Server api document"
+  version: "1.0.0"
+  title: "Swagger Floria Capital"
+  termsOfService: "http://swagger.io/terms/"
+  license:
+    name: "Apache 2.0"
+    url: "http://www.apache.org/licenses/LICENSE-2.0.html"
+
+schemes:
+- "https"
+- "http"
+paths:
+  /private/loan-formula-information/get-by-type:
+      get:
+        tags:
+        - "private"
+        summary: "get loan formula information by type"
+        description: ""
+        operationId: "loanFormula"
+        produces:
+        - "application/json"
+        parameters:
+        - name: "type"
+          in: "query"
+          description: "loan type"
+          required: true
+          type: "string"
+        responses:
+          "200":
+            description: "successful operation"
+            schema:
+              $ref: "#/definitions/Loan_Formula"
+          "400":
+            description: "Invalid type"
+          "404":
+            description: "Formula not found"
+  /new-loan-application/get-loan-calculator-sample-result:
+      get:
+        tags:
+        - "loan"
+        summary: "get loan calculator sample result"
+        description: ""
+        operationId: "loanSample"
+        produces:
+        - "application/json"
+        parameters:
+        - name: "loan_amount"
+          in: "query"
+          required: true
+          type: "number"
+        - name: "loan_duration"
+          in: "query"
+          required: true
+          type: "number"
+        - name: "payment_frequency"
+          in: "query"
+          required: true
+          type: "string"
+        - name: "type"
+          in: "query"
+          required: true
+          type: "string"
+        responses:
+          "200":
+            description: "successful operation"
+            schema:
+              $ref: "#/definitions/Loan_Sample"
+          "400":
+            description: "Invalid input"
+          "404":
+            description: "Formula not found"
+
+  /customer-service/create-ticket:
+      post:
+        tags:
+        - "customer-service"
+        summary: "Create contact us ticket for customer service"
+        description: ""
+        operationId: "createTicket"
+        produces:
+        - "application/xml"
+        - "application/json"
+        parameters:
+        - in: "body"
+          name: "body"
+          description: "input info and make request to customer service"
+          required: true
+          schema:
+            $ref: "#/definitions/Ticket"
+        responses:
+          "200":
+            description: "successful operation"
+          "400":
+            description: "Invalid Input"
+  /client/user-access-service/check-user-can-apply-loan:
+      post:
+        tags:
+        - "loan"
+        summary: "check if user can apply loan"
+        description: ""
+        operationId: "addPet"
+        produces:
+        - "application/xml"
+        - "application/json"
+        responses:
+          "200":
+            description: "successful operation"
+            schema:
+              type: "object"
+              properties:
+                data:
+                  type: object
+                  properties:
+                    is_can_apply_loan:
+                      type: boolean
+                      example: true
+                error:
+                  type: boolean
+                  example: false
+                message:
+                  type: string
+                  example : "can_apply_loan"
+
+          "405":
+            description: "Invalid input"
+        security:
+        - floria_auth:
+          - "write:loans"
+          
+securityDefinitions:
+  floria_auth:
+    type: "oauth2"
+    authorizationUrl: "http://floriacapital.vn"
+    flow: "implicit"
+    scopes:
+      write:loans: "modify loans in your account"
+      read:loans: "read your loans information"
+  api_key:
+    type: "apiKey"
+    name: "api_key"
+    in: "header"            
+
+definitions:
+  Loan_Formula:
+    type: "object"
+    properties:
+      loan_formula_information_id: 
+        type: "string"
+        example: "4ce914665fcf11ec8ab279ed2a19f473" 
+      loan_origination_fee:
+        type: "number"
+        example: 4
+      loan_service_fee:
+        type: "number"
+        example: 10
+      min_loan_amount: 
+        type: "number"
+        example: 10000
+      max_loan_amount:
+        type: "number"
+        example: 50000
+      payment_frequencies: 
+        type: "array"
+        items:
+          $ref: "#/definitions/Payment_Frequency"
+      durations: 
+        type: "array"
+        items:
+          $ref: "#/definitions/Duration"
+      nsf_fee: 
+        type: "number"
+        example: 40
+      extension_fee: 
+        type: "number"
+        example: 10   
+      closing_fee: 
+        type: "number"
+        example: 10
+      type_loan_formula_information: 
+        type: "string"
+        example: "EXP_HL"
+      is_active: 
+        type: "boolean"
+        example: "True"
+      interest_rate: 
+        type: "number"
+        example: 10
+      created_by: 
+        type: "string"
+        example: "363a47fb-2856-4474-85eb-8e8fc2370ac3"
+      created_at: 
+        type: "number"
+        example: 1639810449.268
+      updated_by: 
+        type: "string"
+        example: "363a47fb-2856-4474-85eb-8e8fc2370ac3"
+      updated_at: 
+        type: "number"
+        example: 1639810449.268
+
+  Payment_Frequency:
+    type: "object"
+    properties:
+      name: 
+        type: "string"
+        example: "monthly"
+      value: 
+        type: "number"
+        example: 1
+  Duration:
+    type: "object"
+    properties:
+      name: 
+        type: "string"
+        example: "3_months"
+      value: 
+        type: "number"
+        example: 3 
+  Loan_Sample:
+    type: "object"
+    properties:
+      total_payment: 
+        type: "number"
+        example: 0.252349
+      interest: 
+        type: "number"
+        example: 0.004167
+      capital: 
+        type: "number"
+        example: 0.248182
+      apr: 
+        type: "number"
+        example: 2020.0
+  Ticket:
+    type: "object"
+    properties:
+      user_name: 
+        type: "string"
+        example: "Dat"
+      email: 
+        type: "string"
+        example: "huudattran0402@gmail.com"
+      subject: 
+        type: "string"
+        example: "subject111"
+      mind: 
+        type: "string"
+        example: "description111"
+   
