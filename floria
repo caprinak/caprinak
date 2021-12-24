@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-24T04:27:44.578Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="KgmI7o-deL9osFj-OL-0" version="16.0.3" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-12-24T04:44:07.290Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="rXz1vxHIRzc3Xydph3bz" version="16.0.3" type="github" pages="10">
   <diagram name="forgot password" id="U-3tq2ecIW5YMD4aMSCn">
     <mxGraphModel dx="1022" dy="1838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -304,7 +304,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="AqzjsRMfyU35wsL8LbUH" name="loan-draft-create-account">
-    <mxGraphModel dx="1203" dy="2235" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="978" dy="2023" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="l-WcXgXHeWVVgCG0XHgo-0" />
         <mxCell id="l-WcXgXHeWVVgCG0XHgo-1" parent="l-WcXgXHeWVVgCG0XHgo-0" />
@@ -340,7 +340,7 @@
         <mxCell id="5Flz1XVJnpMcADawReis-6" value="&lt;br&gt;Property Info" style="whiteSpace=wrap;html=1;verticalAlign=top;rounded=1;" vertex="1" parent="l-WcXgXHeWVVgCG0XHgo-1">
           <mxGeometry x="360" y="110" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5Flz1XVJnpMcADawReis-8" value="&lt;br&gt;&lt;br&gt;&amp;nbsp;Google Place API" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;verticalAlign=top;rounded=1;strokeColor=#A680B8;" vertex="1" parent="l-WcXgXHeWVVgCG0XHgo-1">
+        <mxCell id="5Flz1XVJnpMcADawReis-8" value="&lt;br&gt;&lt;br&gt;&amp;nbsp;Google Place API" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;verticalAlign=top;rounded=1;strokeColor=#EBD43D;" vertex="1" parent="l-WcXgXHeWVVgCG0XHgo-1">
           <mxGeometry x="360" y="-30" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="5Flz1XVJnpMcADawReis-10" value="&lt;span&gt;&lt;br&gt;get-loan-calculator-sample-result&amp;nbsp;&lt;br&gt;&lt;/span&gt;API&amp;nbsp;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;verticalAlign=top;rounded=1;strokeColor=#A680B8;" vertex="1" parent="l-WcXgXHeWVVgCG0XHgo-1">
@@ -394,7 +394,7 @@
         <mxCell id="aWQ-S-jPrMJNRbo9ssjM-5" value="&lt;br&gt;Verify Email" style="whiteSpace=wrap;html=1;verticalAlign=top;rounded=1;strokeColor=#3399FF;" vertex="1" parent="l-WcXgXHeWVVgCG0XHgo-1">
           <mxGeometry x="360" y="294" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aWQ-S-jPrMJNRbo9ssjM-7" value="Send&lt;br&gt;&amp;nbsp;Welcome email" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;rounded=1;strokeColor=#00CC00;" vertex="1" parent="l-WcXgXHeWVVgCG0XHgo-1">
+        <mxCell id="aWQ-S-jPrMJNRbo9ssjM-7" value="Send&lt;br&gt;&amp;nbsp;Welcome email" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;rounded=1;strokeColor=#B5739D;" vertex="1" parent="l-WcXgXHeWVVgCG0XHgo-1">
           <mxGeometry x="360" y="434" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aWQ-S-jPrMJNRbo9ssjM-9" value="&lt;br&gt;Cookies&lt;br&gt;created" style="rhombus;whiteSpace=wrap;html=1;verticalAlign=top;rounded=1;strokeColor=#FFB570;" vertex="1" parent="l-WcXgXHeWVVgCG0XHgo-1">
@@ -404,6 +404,9 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="90" y="404" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="srsTlwxuPd8pcvwrRQch-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;strokeColor=#EBD43D;" edge="1" parent="l-WcXgXHeWVVgCG0XHgo-1" source="aWQ-S-jPrMJNRbo9ssjM-13" target="srsTlwxuPd8pcvwrRQch-0">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aWQ-S-jPrMJNRbo9ssjM-13" value="Banking Info&lt;br&gt;(Plaid API Call)" style="whiteSpace=wrap;html=1;verticalAlign=top;rounded=1;strokeColor=#EBD43D;" vertex="1" parent="l-WcXgXHeWVVgCG0XHgo-1">
           <mxGeometry x="160" y="294" width="120" height="60" as="geometry" />
@@ -440,6 +443,9 @@
         </mxCell>
         <mxCell id="v4af21CCyNdFv0-hxXJQ-12" value="&lt;br&gt;Loan Draft DB" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;strokeColor=#666666;shadow=0;glass=0;sketch=0;fillColor=#f5f5f5;gradientColor=#b3b3b3;" vertex="1" parent="l-WcXgXHeWVVgCG0XHgo-1">
           <mxGeometry x="930" y="-20" width="89" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="srsTlwxuPd8pcvwrRQch-0" value="&lt;br&gt;Get&amp;nbsp; Plaid &lt;br&gt;Link and Token" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;verticalAlign=top;strokeColor=#B5739D;rounded=1;" vertex="1" parent="l-WcXgXHeWVVgCG0XHgo-1">
+          <mxGeometry x="160" y="424" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -981,7 +987,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Hf4p4Dgt9zfrzVRNiXg9" name="New Loan Service">
-    <mxGraphModel dx="1022" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="hfBLXacPrN0k5xnqZZW9-0" />
         <mxCell id="hfBLXacPrN0k5xnqZZW9-1" parent="hfBLXacPrN0k5xnqZZW9-0" />
@@ -1162,6 +1168,120 @@
             <mxPoint x="250" y="440" as="sourcePoint" />
             <mxPoint x="360" y="260" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="2lTqIokYvZ7xItTF6CZH" name="New Loan Flow">
+    <mxGraphModel dx="1422" dy="2442" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="dCflproqdjIjIOSv7dlV-0" />
+        <mxCell id="dCflproqdjIjIOSv7dlV-1" parent="dCflproqdjIjIOSv7dlV-0" />
+        <mxCell id="mZKTiW5LWkOoZt9FU2na-0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#3399FF;" edge="1" parent="dCflproqdjIjIOSv7dlV-1" target="mZKTiW5LWkOoZt9FU2na-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="140" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mZKTiW5LWkOoZt9FU2na-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#3399FF;" edge="1" parent="dCflproqdjIjIOSv7dlV-1" source="mZKTiW5LWkOoZt9FU2na-4" target="mZKTiW5LWkOoZt9FU2na-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mZKTiW5LWkOoZt9FU2na-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#3399FF;" edge="1" parent="dCflproqdjIjIOSv7dlV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="221" y="110" as="sourcePoint" />
+            <mxPoint x="221" y="50" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="221" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mZKTiW5LWkOoZt9FU2na-4" value="&lt;br&gt;Select Terms" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=center;" vertex="1" parent="dCflproqdjIjIOSv7dlV-1">
+          <mxGeometry x="160" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mZKTiW5LWkOoZt9FU2na-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#3399FF;" edge="1" parent="dCflproqdjIjIOSv7dlV-1" source="mZKTiW5LWkOoZt9FU2na-7" target="mZKTiW5LWkOoZt9FU2na-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mZKTiW5LWkOoZt9FU2na-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#3399FF;" edge="1" parent="dCflproqdjIjIOSv7dlV-1" source="mZKTiW5LWkOoZt9FU2na-7" target="mZKTiW5LWkOoZt9FU2na-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mZKTiW5LWkOoZt9FU2na-7" value="&lt;br&gt;Property Info" style="whiteSpace=wrap;html=1;verticalAlign=top;rounded=1;" vertex="1" parent="dCflproqdjIjIOSv7dlV-1">
+          <mxGeometry x="360" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mZKTiW5LWkOoZt9FU2na-8" value="&lt;br&gt;&lt;br&gt;&amp;nbsp;get-questionnaire API" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;verticalAlign=top;rounded=1;strokeColor=#A680B8;" vertex="1" parent="dCflproqdjIjIOSv7dlV-1">
+          <mxGeometry x="360" y="-30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mZKTiW5LWkOoZt9FU2na-9" value="&lt;span&gt;&lt;br&gt;&lt;/span&gt;load_loan_draft &lt;br&gt;API&amp;nbsp;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;verticalAlign=top;rounded=1;strokeColor=#A680B8;" vertex="1" parent="dCflproqdjIjIOSv7dlV-1">
+          <mxGeometry x="162" y="-30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mZKTiW5LWkOoZt9FU2na-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#3399FF;" edge="1" parent="dCflproqdjIjIOSv7dlV-1" source="mZKTiW5LWkOoZt9FU2na-11" target="mZKTiW5LWkOoZt9FU2na-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mZKTiW5LWkOoZt9FU2na-11" value="&lt;br&gt;Personal Info" style="whiteSpace=wrap;html=1;verticalAlign=top;rounded=1;" vertex="1" parent="dCflproqdjIjIOSv7dlV-1">
+          <mxGeometry x="560" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mZKTiW5LWkOoZt9FU2na-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#3399FF;" edge="1" parent="dCflproqdjIjIOSv7dlV-1" source="mZKTiW5LWkOoZt9FU2na-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="294" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mZKTiW5LWkOoZt9FU2na-14" value="&lt;br&gt;Save Loan Draft" style="whiteSpace=wrap;html=1;verticalAlign=top;rounded=1;" vertex="1" parent="dCflproqdjIjIOSv7dlV-1">
+          <mxGeometry x="760" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mZKTiW5LWkOoZt9FU2na-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#56517e;fillColor=#d0cee2;" edge="1" parent="dCflproqdjIjIOSv7dlV-1" target="mZKTiW5LWkOoZt9FU2na-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="464" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mZKTiW5LWkOoZt9FU2na-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#3399FF;" edge="1" parent="dCflproqdjIjIOSv7dlV-1" target="mZKTiW5LWkOoZt9FU2na-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="324" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mZKTiW5LWkOoZt9FU2na-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#3399FF;" edge="1" parent="dCflproqdjIjIOSv7dlV-1" target="mZKTiW5LWkOoZt9FU2na-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="354" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mZKTiW5LWkOoZt9FU2na-22" value="&lt;br&gt;New Loan Submitted" style="whiteSpace=wrap;html=1;verticalAlign=top;rounded=1;strokeColor=#3399FF;" vertex="1" parent="dCflproqdjIjIOSv7dlV-1">
+          <mxGeometry x="560" y="294" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pvnMJP55uIQ7SrGESqj_-0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;strokeColor=#B5739D;" edge="1" parent="dCflproqdjIjIOSv7dlV-1" source="mZKTiW5LWkOoZt9FU2na-30" target="mZKTiW5LWkOoZt9FU2na-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mZKTiW5LWkOoZt9FU2na-30" value="&lt;br&gt;&amp;nbsp;create-loan-history API" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;verticalAlign=top;rounded=1;strokeColor=#A680B8;" vertex="1" parent="dCflproqdjIjIOSv7dlV-1">
+          <mxGeometry x="760" y="424" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mZKTiW5LWkOoZt9FU2na-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.45;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#FFFFFF;strokeColor=#3399FF;" edge="1" parent="dCflproqdjIjIOSv7dlV-1" source="mZKTiW5LWkOoZt9FU2na-33" target="mZKTiW5LWkOoZt9FU2na-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mZKTiW5LWkOoZt9FU2na-33" value="&lt;br&gt;Select Terms" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=center;strokeColor=#3399FF;" vertex="1" parent="dCflproqdjIjIOSv7dlV-1">
+          <mxGeometry x="160" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mZKTiW5LWkOoZt9FU2na-34" value="&lt;br&gt;Property Info" style="whiteSpace=wrap;html=1;verticalAlign=top;rounded=1;strokeColor=#3399FF;" vertex="1" parent="dCflproqdjIjIOSv7dlV-1">
+          <mxGeometry x="360" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mZKTiW5LWkOoZt9FU2na-35" value="&lt;br&gt;Personal Info" style="whiteSpace=wrap;html=1;verticalAlign=top;rounded=1;strokeColor=#3399FF;" vertex="1" parent="dCflproqdjIjIOSv7dlV-1">
+          <mxGeometry x="560" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mZKTiW5LWkOoZt9FU2na-36" value="&lt;br&gt;Summary" style="whiteSpace=wrap;html=1;verticalAlign=top;rounded=1;strokeColor=#3399FF;" vertex="1" parent="dCflproqdjIjIOSv7dlV-1">
+          <mxGeometry x="760" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mZKTiW5LWkOoZt9FU2na-37" value="&lt;br&gt;Submit&amp;nbsp;&lt;br&gt;Button" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;rounded=1;strokeColor=#3399FF;" vertex="1" parent="dCflproqdjIjIOSv7dlV-1">
+          <mxGeometry x="760" y="294" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mZKTiW5LWkOoZt9FU2na-38" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.user;" vertex="1" parent="dCflproqdjIjIOSv7dlV-1">
+          <mxGeometry x="33.5" y="115" width="47.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mZKTiW5LWkOoZt9FU2na-39" value="User" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="dCflproqdjIjIOSv7dlV-1">
+          <mxGeometry x="30" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mZKTiW5LWkOoZt9FU2na-40" value="&lt;br&gt;Loan History DB" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;strokeColor=#666666;shadow=0;glass=0;sketch=0;fillColor=#f5f5f5;gradientColor=#b3b3b3;" vertex="1" parent="dCflproqdjIjIOSv7dlV-1">
+          <mxGeometry x="610" y="434" width="89" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mZKTiW5LWkOoZt9FU2na-41" value="&lt;br&gt;get-loan-calculator-sample-result&amp;nbsp;&lt;br&gt;API&amp;nbsp;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;verticalAlign=top;rounded=1;strokeColor=#A680B8;" vertex="1" parent="dCflproqdjIjIOSv7dlV-1">
+          <mxGeometry x="40" y="-30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mZKTiW5LWkOoZt9FU2na-42" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FFFFFF;" vertex="1" parent="dCflproqdjIjIOSv7dlV-1">
+          <mxGeometry x="50" y="-40" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
