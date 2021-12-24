@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-24T06:49:23.013Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="YvmbTLxc1eYABcNyapep" version="16.0.3" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-12-24T07:07:04.824Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="1CAR4lfZQTGJIGvHKIq_" version="16.0.3" type="github" pages="10">
   <diagram name="forgot password" id="U-3tq2ecIW5YMD4aMSCn">
     <mxGraphModel dx="1022" dy="1838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -304,7 +304,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="AqzjsRMfyU35wsL8LbUH" name="LoanDraft-createAccountFlow">
-    <mxGraphModel dx="823" dy="1877" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1203" dy="2235" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="l-WcXgXHeWVVgCG0XHgo-0" />
         <mxCell id="l-WcXgXHeWVVgCG0XHgo-1" parent="l-WcXgXHeWVVgCG0XHgo-0" />
@@ -1212,7 +1212,7 @@
         <mxCell id="mZKTiW5LWkOoZt9FU2na-7" value="&lt;br&gt;Property Info" style="whiteSpace=wrap;html=1;verticalAlign=top;rounded=1;" vertex="1" parent="dCflproqdjIjIOSv7dlV-1">
           <mxGeometry x="550" y="110" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mZKTiW5LWkOoZt9FU2na-8" value="&lt;br&gt;&lt;br&gt;&amp;nbsp;get-questionnaire API" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;verticalAlign=top;rounded=1;strokeColor=#A680B8;" vertex="1" parent="dCflproqdjIjIOSv7dlV-1">
+        <mxCell id="mZKTiW5LWkOoZt9FU2na-8" value="&lt;br&gt;&amp;nbsp;get-questionnaire API" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;verticalAlign=top;rounded=1;strokeColor=#A680B8;" vertex="1" parent="dCflproqdjIjIOSv7dlV-1">
           <mxGeometry x="550" y="-30" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="mZKTiW5LWkOoZt9FU2na-9" value="&lt;span&gt;&lt;br&gt;&lt;/span&gt;load_loan_draft &lt;br&gt;API&amp;nbsp;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;verticalAlign=top;rounded=1;strokeColor=#A680B8;" vertex="1" parent="dCflproqdjIjIOSv7dlV-1">
@@ -1281,7 +1281,7 @@
         <mxCell id="mZKTiW5LWkOoZt9FU2na-40" value="&lt;br&gt;Loan History DB" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;strokeColor=#666666;shadow=0;glass=0;sketch=0;fillColor=#f5f5f5;gradientColor=#b3b3b3;" vertex="1" parent="dCflproqdjIjIOSv7dlV-1">
           <mxGeometry x="800" y="434" width="89" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mZKTiW5LWkOoZt9FU2na-41" value="&lt;br&gt;get-loan-calculator-sample-result&amp;nbsp;&lt;br&gt;API&amp;nbsp;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;verticalAlign=top;rounded=1;strokeColor=#A680B8;" vertex="1" parent="dCflproqdjIjIOSv7dlV-1">
+        <mxCell id="mZKTiW5LWkOoZt9FU2na-41" value="&lt;br&gt;get-loan-type-information&lt;br&gt;API" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;verticalAlign=top;rounded=1;strokeColor=#A680B8;" vertex="1" parent="dCflproqdjIjIOSv7dlV-1">
           <mxGeometry x="40" y="-30" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="mZKTiW5LWkOoZt9FU2na-42" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FFFFFF;" vertex="1" parent="dCflproqdjIjIOSv7dlV-1">
@@ -1296,7 +1296,7 @@
         <mxCell id="WiK-4oJUmnIpbq7c2gFH-2" value="Show Results&lt;br&gt;Button" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;strokeColor=#3399FF;rounded=1;" vertex="1" parent="dCflproqdjIjIOSv7dlV-1">
           <mxGeometry x="360" y="110" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WiK-4oJUmnIpbq7c2gFH-5" value="&lt;br&gt;&lt;br&gt;&amp;nbsp;get-questionnaire API" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;verticalAlign=top;rounded=1;strokeColor=#A680B8;" vertex="1" parent="dCflproqdjIjIOSv7dlV-1">
+        <mxCell id="WiK-4oJUmnIpbq7c2gFH-5" value="&lt;br&gt;get-loan-formula-by-type-and-loan-amount-middle&lt;br&gt;API" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;verticalAlign=top;rounded=1;strokeColor=#A680B8;" vertex="1" parent="dCflproqdjIjIOSv7dlV-1">
           <mxGeometry x="360" y="-30" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
