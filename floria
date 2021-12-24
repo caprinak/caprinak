@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-24T06:47:11.636Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="RwZReoXVWBcBd5eGJum_" version="16.0.3" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-12-24T06:49:23.013Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="YvmbTLxc1eYABcNyapep" version="16.0.3" type="github" pages="10">
   <diagram name="forgot password" id="U-3tq2ecIW5YMD4aMSCn">
     <mxGraphModel dx="1022" dy="1838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -304,10 +304,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="AqzjsRMfyU35wsL8LbUH" name="LoanDraft-createAccountFlow">
-    <mxGraphModel dx="680" dy="1742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="823" dy="1877" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="l-WcXgXHeWVVgCG0XHgo-0" />
         <mxCell id="l-WcXgXHeWVVgCG0XHgo-1" parent="l-WcXgXHeWVVgCG0XHgo-0" />
+        <mxCell id="HWad7XiK-6cbThMo_e-0-1" value="" style="whiteSpace=wrap;html=1;verticalAlign=top;strokeColor=#EBD43D;rounded=1;" vertex="1" parent="l-WcXgXHeWVVgCG0XHgo-1">
+          <mxGeometry x="185" y="570" width="70" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="5Flz1XVJnpMcADawReis-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#3399FF;" edge="1" parent="l-WcXgXHeWVVgCG0XHgo-1" target="5Flz1XVJnpMcADawReis-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="90" y="140" as="sourcePoint" />
@@ -444,8 +447,14 @@
         <mxCell id="v4af21CCyNdFv0-hxXJQ-12" value="&lt;br&gt;Loan Draft DB" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;strokeColor=#666666;shadow=0;glass=0;sketch=0;fillColor=#f5f5f5;gradientColor=#b3b3b3;" vertex="1" parent="l-WcXgXHeWVVgCG0XHgo-1">
           <mxGeometry x="930" y="-20" width="89" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="HWad7XiK-6cbThMo_e-0-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;strokeColor=#3399FF;" edge="1" parent="l-WcXgXHeWVVgCG0XHgo-1" source="srsTlwxuPd8pcvwrRQch-0" target="HWad7XiK-6cbThMo_e-0-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="srsTlwxuPd8pcvwrRQch-0" value="&lt;br&gt;Get&amp;nbsp; Plaid &lt;br&gt;Link and Token" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;verticalAlign=top;strokeColor=#B5739D;rounded=1;" vertex="1" parent="l-WcXgXHeWVVgCG0XHgo-1">
           <mxGeometry x="160" y="424" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HWad7XiK-6cbThMo_e-0-0" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.openbanking.org.uk/wp-content/uploads/2021/04/plaid.png;" vertex="1" parent="l-WcXgXHeWVVgCG0XHgo-1">
+          <mxGeometry x="194.5" y="575" width="51" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
