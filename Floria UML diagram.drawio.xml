@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-30T07:36:39.847Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="g6NAGlivbTzzAqWFQ86e" version="16.1.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-12-30T07:39:53.161Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="54oL1Djr7UYoh3HEHYmT" version="16.1.0" type="github" pages="2">
   <diagram name="Schema" id="uv95kXmCHw0RZ0mb4yef">
     <mxGraphModel dx="1022" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -320,7 +320,7 @@
           <mxGeometry x="116" y="120" width="1035" height="1711.51" as="geometry" />
         </mxCell>
         <mxCell id="sVFSFLoDuz54pdPwuse4-100" value="&lt;p style=&quot;margin: 4px 0px 0px&quot;&gt;&amp;nbsp; personal_information &amp;lt;&amp;lt;List&amp;gt;&amp;gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;span&gt;first_name: String&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;&amp;nbsp; &amp;nbsp;last_name: String&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;span&gt;&lt;span&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp;email : &lt;/span&gt;String&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;span&gt;&lt;span&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&amp;nbsp; &amp;nbsp;date_of_birth : Number&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;span&gt; &lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;span&gt;&lt;/span&gt;&amp;nbsp; &amp;nbsp;&lt;span&gt;ownership_status : String&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="9qIyhn7ltQtI6Cag5uay-3" vertex="1">
-          <mxGeometry x="735" y="625" width="240" height="179" as="geometry" />
+          <mxGeometry x="735" y="635" width="240" height="179" as="geometry" />
         </mxCell>
         <mxCell id="SHe3HsNG5VjF5RK5C6bU-15" value="" style="group" parent="9qIyhn7ltQtI6Cag5uay-3" vertex="1" connectable="0">
           <mxGeometry width="1035" height="1711.51" as="geometry" />
@@ -438,7 +438,7 @@
           <mxGeometry x="752" y="520" width="200" height="65" as="geometry" />
         </mxCell>
         <mxCell id="5hk4i6qd-vpAGggs5PRO-158" value="&lt;p style=&quot;margin: 4px 0px 0px&quot;&gt;&lt;/p&gt;&amp;nbsp;phone_number&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;content : String&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;area_code : String&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="SHe3HsNG5VjF5RK5C6bU-15" vertex="1">
-          <mxGeometry x="752" y="719" width="200" height="65" as="geometry" />
+          <mxGeometry x="752" y="729" width="200" height="65" as="geometry" />
         </mxCell>
         <mxCell id="Y9fA7eznBxWTQKUn9L52-169" value="&lt;&lt;Collection&gt;&gt;&#xa;Loan_Questionnaire" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="SHe3HsNG5VjF5RK5C6bU-15" vertex="1">
           <mxGeometry x="695" y="870" width="329" height="640" as="geometry">
