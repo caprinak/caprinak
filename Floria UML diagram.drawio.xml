@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-31T02:54:34.199Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="Bo4xN9WMX__oqo24rEZT" version="16.1.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-12-31T02:56:53.604Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="zuJdEGBdWnuSA_2i2syw" version="16.1.0" type="github" pages="2">
   <diagram name="Schema" id="uv95kXmCHw0RZ0mb4yef">
-    <mxGraphModel dx="1872" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1872" dy="681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="sVFSFLoDuz54pdPwuse4-0" />
         <mxCell id="sVFSFLoDuz54pdPwuse4-1" parent="sVFSFLoDuz54pdPwuse4-0" />
@@ -290,7 +290,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="SHe3HsNG5VjF5RK5C6bU-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" parent="sVFSFLoDuz54pdPwuse4-1" vertex="1">
-          <mxGeometry x="30" y="30" width="70" height="1620" as="geometry" />
+          <mxGeometry x="-40" y="30" width="140" height="1620" as="geometry" />
         </mxCell>
         <mxCell id="SHe3HsNG5VjF5RK5C6bU-1" value="Loan_Questionnaire table stores Items, which are main questions, and sub-items inside each main question.&lt;br style=&quot;font-size: 12px&quot;&gt;&lt;br style=&quot;font-size: 12px&quot;&gt;- loan_type_question: determines questions of which loan type&amp;nbsp;&lt;br style=&quot;font-size: 12px&quot;&gt;- icon : specific question icons&lt;br&gt;- page_title : title of question&lt;br style=&quot;font-size: 12px&quot;&gt;-condition_display_question: determines condition to display which answer set (depending on previous answer).&lt;br&gt;- is_hide_item: condition to display or hide special input" style="shape=note;strokeWidth=2;fontSize=12;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" parent="sVFSFLoDuz54pdPwuse4-1" vertex="1">
           <mxGeometry x="1150" y="1040" width="160" height="280" as="geometry" />
