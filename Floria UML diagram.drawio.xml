@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-07T07:24:00.426Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="9LRcvSg1xbA1ztDh7NCX" version="16.2.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-01-07T07:24:33.083Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="gRzEXZ7e5wk--R9fU7eG" version="16.2.2" type="github" pages="2">
   <diagram name="Schema" id="uv95kXmCHw0RZ0mb4yef">
     <mxGraphModel dx="1636" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -1169,15 +1169,6 @@
         </mxCell>
         <mxCell id="tuSEtctp5aVOvDw8xn6B-342" value="Note:&amp;nbsp;&lt;br style=&quot;font-size: 12px;&quot;&gt;This table stores data to calculate loan schedule (sample and real loan)" style="shape=note;strokeWidth=2;fontSize=12;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="tuSEtctp5aVOvDw8xn6B-209">
           <mxGeometry x="-84" y="983.51" width="85" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="tuSEtctp5aVOvDw8xn6B-406" value="" style="group" vertex="1" connectable="0" parent="tuSEtctp5aVOvDw8xn6B-209">
-          <mxGeometry x="52" y="1732" width="185" height="146.5" as="geometry" />
-        </mxCell>
-        <mxCell id="tuSEtctp5aVOvDw8xn6B-407" value="&lt;p style=&quot;margin: 4px 0px 0px&quot;&gt;&lt;/p&gt;&amp;nbsp;payment_frequencies &amp;lt;&amp;lt;List&amp;gt;&amp;gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;name : String&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;value : Number&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="tuSEtctp5aVOvDw8xn6B-406">
-          <mxGeometry y="81.5" width="185" height="65" as="geometry" />
-        </mxCell>
-        <mxCell id="tuSEtctp5aVOvDw8xn6B-408" value="&lt;p style=&quot;margin: 4px 0px 0px&quot;&gt;&lt;/p&gt;&amp;nbsp;durations &amp;lt;&amp;lt;List&amp;gt;&amp;gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;name : String&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;value : Number&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="tuSEtctp5aVOvDw8xn6B-406">
-          <mxGeometry width="185" height="65" as="geometry" />
         </mxCell>
         <mxCell id="sVFSFLoDuz54pdPwuse4-60" value="&lt;p style=&quot;margin: 4px 0px 0px&quot;&gt;&amp;nbsp; loan_status &amp;lt;&amp;lt;List&amp;gt;&amp;gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; content : String&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; created_by : String (&lt;span style=&quot;font-weight: 700&quot;&gt;user_profile_id&lt;/span&gt;)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; created_at : Number&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="tuSEtctp5aVOvDw8xn6B-209" vertex="1">
           <mxGeometry x="374" y="1298" width="240" height="90" as="geometry" />
