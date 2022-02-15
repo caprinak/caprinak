@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-15T08:24:18.940Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="bAssyGEcRL9IxZrXfbdH" version="16.5.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-02-15T08:36:14.493Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="hbaCWi_lJP23s4QcriVW" version="16.5.6" type="github" pages="3">
   <diagram name="Schema" id="uv95kXmCHw0RZ0mb4yef">
     <mxGraphModel dx="1632" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -983,7 +983,7 @@
           <mxGeometry x="362" y="1353" width="240" height="84" as="geometry" />
         </mxCell>
         <mxCell id="WgLsnAsoiVLuueTZPmwi-0" value="&lt;&lt;Collection&gt;&gt;&#xa;Document_Type" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#AF9C88;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="tuSEtctp5aVOvDw8xn6B-209">
-          <mxGeometry x="1110" width="250" height="192" as="geometry">
+          <mxGeometry x="1110" y="-2" width="250" height="192" as="geometry">
             <mxRectangle x="120" y="120" width="120" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -1040,10 +1040,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="WgLsnAsoiVLuueTZPmwi-34" value="&lt;p style=&quot;margin: 4px 0px 0px&quot;&gt;&lt;/p&gt;&amp;nbsp;type_name&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;en : String&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;fr : String&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="tuSEtctp5aVOvDw8xn6B-209">
-          <mxGeometry x="1151" y="67" width="193" height="71" as="geometry" />
+          <mxGeometry x="1151" y="65" width="193" height="71" as="geometry" />
         </mxCell>
         <mxCell id="WgLsnAsoiVLuueTZPmwi-35" value="&lt;&lt;Collection&gt;&gt;&#xa;Document_Template" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#AF9C88;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="tuSEtctp5aVOvDw8xn6B-209">
-          <mxGeometry x="1110" y="236" width="250" height="390" as="geometry">
+          <mxGeometry x="1110" y="234" width="250" height="390" as="geometry">
             <mxRectangle x="120" y="120" width="120" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
