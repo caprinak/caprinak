@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-07T02:24:50.545Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="o6KVsBHgqpeD_47b1Akp" version="16.6.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-07T02:26:02.160Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="yrde0Cz6zCb4QsBfUitf" version="16.6.2" type="github" pages="2">
   <diagram name="Schema" id="uv95kXmCHw0RZ0mb4yef">
-    <mxGraphModel dx="2523" dy="1817" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="3978" dy="3824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="sVFSFLoDuz54pdPwuse4-0" />
         <mxCell id="sVFSFLoDuz54pdPwuse4-1" parent="sVFSFLoDuz54pdPwuse4-0" />
@@ -2235,7 +2235,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="SHe3HsNG5VjF5RK5C6bU-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" parent="sVFSFLoDuz54pdPwuse4-1" vertex="1">
-          <mxGeometry x="-1130" y="-370" width="140" height="3600" as="geometry" />
+          <mxGeometry x="-550" y="-10" width="140" height="3660" as="geometry" />
         </mxCell>
         <mxCell id="Zdi1xaXMHWNnQyTGkiOk-0" value="&lt;span style=&quot;font-weight: 700 ; text-align: center&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Loan_Payment_Schedule&lt;/font&gt;&lt;/span&gt;: this table stores data by month&lt;br&gt;-beginning_amount :&amp;nbsp; remaining loan payment due&lt;br&gt;&lt;br&gt;&lt;div&gt;-loan_payment_period :Number (it is actually timestamp, and is converted to Date (d.m.Y) ) for UI display, this field refers to payment time (following initial plan)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;-user_payment_period&lt;font color=&quot;#af9c88&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;div&gt;&amp;nbsp;&amp;lt;&amp;lt;List&amp;gt;&amp;gt; =&amp;gt; stores&amp;nbsp; real payment times.&lt;br&gt;&lt;/div&gt;" style="shape=note;strokeWidth=2;fontSize=12;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" parent="sVFSFLoDuz54pdPwuse4-1" vertex="1">
           <mxGeometry x="-81" y="1070" width="153" height="280" as="geometry" />
