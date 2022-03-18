@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-18T03:27:49.993Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="dTzdoAuJhCZNnLlgKrwq" version="17.1.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-18T08:03:37.379Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="0Gi40nXbwXAL559t8DFY" version="17.1.3" type="github" pages="2">
   <diagram name="Schema" id="uv95kXmCHw0RZ0mb4yef">
-    <mxGraphModel dx="1632" dy="1838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="6063" dy="6020" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="sVFSFLoDuz54pdPwuse4-0" />
         <mxCell id="sVFSFLoDuz54pdPwuse4-1" parent="sVFSFLoDuz54pdPwuse4-0" />
@@ -3239,7 +3239,7 @@
         <mxCell id="ZeZ-MRCEDwJ_ESA0enEb-349" value="&lt;p style=&quot;margin: 4px 0px 0px&quot;&gt;&lt;/p&gt;&amp;nbsp;&amp;nbsp;reminder_date&lt;br&gt;&lt;hr&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span&gt;offset_date: Number&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;        &lt;/span&gt;local_date: Number&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;        &lt;/span&gt;email: String&lt;/div&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="sVFSFLoDuz54pdPwuse4-1" vertex="1">
           <mxGeometry x="1910" y="1020" width="193" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="usTLxdSpJOd5J4psz6SI-6" value="&lt;span style=&quot;font-weight: 700 ; text-align: center&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;All tables&amp;nbsp;&lt;/font&gt;&lt;/span&gt;:&amp;nbsp; number_order_id: specifies the order of the id from 1 onwards (similar to index, expect that index starts with 0)" style="shape=note;strokeWidth=2;fontSize=12;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" parent="sVFSFLoDuz54pdPwuse4-1" vertex="1">
+        <mxCell id="usTLxdSpJOd5J4psz6SI-6" value="&lt;span style=&quot;font-weight: 700 ; text-align: center&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;All tables&amp;nbsp;&lt;/font&gt;&lt;/span&gt;:&amp;nbsp; number_order_id: specifies the order of the id from 1 onwards (similar to index, but differs that index starts with 0)" style="shape=note;strokeWidth=2;fontSize=12;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" parent="sVFSFLoDuz54pdPwuse4-1" vertex="1">
           <mxGeometry x="-252" y="330" width="204" height="90" as="geometry" />
         </mxCell>
         <mxCell id="WgLsnAsoiVLuueTZPmwi-0" value="&lt;&lt;Collection&gt;&gt;&#xa;Document_Type" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#AF9C88;fontColor=#ffffff;strokeColor=#006EAF;" parent="sVFSFLoDuz54pdPwuse4-1" vertex="1">
